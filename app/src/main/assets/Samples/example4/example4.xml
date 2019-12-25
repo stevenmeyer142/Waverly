@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statements>
+   <statement>
+        <noun>Then</noun>
+        <verb>to send</verb>
+        <result>select the email menu.
+The receiver needs the Waverly app to view the email attachment.</result>
+        <picture>window.jpg</picture>
+        <uuid>AFD3D77B-3C95-4817-9E0F-5BA29C89F521</uuid>
+       <time>200</time>
+    </statement>
+</statements>

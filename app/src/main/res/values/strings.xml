@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Waverly</string>
+	<string name="noun">Noun</string>
+	<string name="action_settings">Settings</string>
+	<string name="verb_button">Push Me</string>
+	<string name="verbAnswer">Answer</string>
+	<string name="result"/>
+	<string name="imageContent">Background Image</string>
+	<string name="title_activity_main_statements">Waverly</string>
+	<string name="title_activity_edit_statement">Edit</string>
+	<string name="title_section1">Composed</string>
+	<string name="title_section2">Received</string>
+	<string name="title_section3">About</string>
+	<string name="navigation_drawer_open">Drawer open</string>
+	<string name="navigation_drawer_close">Drawer close</string>
+	<string name="edit_menu">Edit</string>
+	<string name="send_email_menu">Send Email</string>
+	<string name="send_menu">Email</string>
+	<string name="result_edit">Edit Which?</string>
+	<string name="take_picture_error">Camera error</string>
+	<string name="ok">OK</string>
+	<string name="album_picture_error">Photo Albums Error:</string>
+	<string name="noun_blank">Something</string>
+	<string name="verb_blank">to be</string>
+	<string name="result_blank">typed</string>
+	<string name="pushme_mimetype">application/waverly</string>
+	<string name="pushme_suffix">wvly</string>
+	<string name="edit_lists_fragment">Edit Statements</string>
+	<string name="delete">Delete</string>
+	<string name="dialog_delete_selection">Delete Selected Items?</string>
+	<string name="cancel">Cancel</string>
+	<string name="done">Done</string>
+	<string name="title_activity_edit_list">Edit Waverly\'s</string>
+	<string name="empty_pushme_list">No Waverly\'s</string>
+	<string name="refresh_statement">Refresh</string>
+	<string name="save_statement_message">Add the changed Waverly?</string>
+	<string name="add_statement">Add</string>
+	<string name="replace_statement">Replace</string>
+	<string name="delete_statement">Delete</string>
+	<string name="email_subject">A Waverly</string>
+	<string name="email_content">"Waverly attached.\n"
+		"Opening an attachment no longer works on the Android platform.\n"
+		"This app is a portfolio app for prospective employers.\n"
+		"Unfortunately, no longer fully functional.\n"
+		"Viewable with the Android Waverly app.\n"
+		"Link to Android app - https://play.google.com/store/apps/details?id=com.brazedblue.waverly\n"</string>
+	<string name="title_activity_debug_log">DebugLogActivity</string>
+	<string name="large_text">"Stuff"</string>
+	<string name="log_email_subject">Debug log</string>
+	<string name="new_statement">New Waverly</string>
+	<string name="verb_button_blank">Push Me</string>
+	<string name="fix_camera_permissions">Waverly needs permissions to use the camera. These can be granted in settings.</string>
+</resources>

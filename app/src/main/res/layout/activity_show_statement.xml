@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ShowStatementFragment"
+                android:background="#ffffff">
+
+    <com.brazedblue.waverly.StatementView
+        android:id="@+id/statementView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textNoun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noun"
+            android:textAppearance="@style/NounTheme"
+            android:minWidth="@dimen/minViewWidth"/>
+
+        <Button
+            android:id="@+id/verbButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verb_button"
+            android:minWidth="@dimen/minViewWidth"/>
+
+        <TextView
+            android:id="@+id/textVerb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:text="@string/verbAnswer"
+            android:textAppearance="@style/NounTheme"
+            android:minWidth="@dimen/minViewWidth"/>
+
+        <ImageView
+            android:id="@+id/pictureView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/imageContent" />
+
+        <com.brazedblue.waverly.ResultView
+            android:id="@+id/resultView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/result"
+            android:textAppearance="@style/ResultTheme"/>
+
+    </com.brazedblue.waverly.StatementView>
+
+</RelativeLayout>

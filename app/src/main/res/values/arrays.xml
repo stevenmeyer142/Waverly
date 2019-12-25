@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="result_edit_choices">
+        <item>Text</item>
+        <item>Take Photo</item>
+        <item>Album Photo</item>
+    </string-array>
+</resources>

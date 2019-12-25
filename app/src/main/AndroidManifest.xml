@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.brazedblue.waverly"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name="com.brazedblue.waverly.MainStatementsActivity"
+			android:label="@string/title_activity_main_statements"
+			android:launchMode="singleTop">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+
+				<data
+					android:host="*"
+					android:mimeType="application/waverly"
+					android:pathPattern="*"
+					android:scheme="content"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="com.brazedblue.waverly.EditStatementActivity"
+			android:label="@string/title_activity_edit_statement">
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.brazedblue.waverly.MainStatementsActivity"/>
+		</activity>
+		<activity
+			android:name="com.brazedblue.waverly.StatementListEditActivity"
+			android:label="@string/title_activity_edit_list">
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.brazedblue.waverly.MainStatementsActivity"/>
+		</activity>
+
+		<provider
+			android:name="android.support.v4.content.FileProvider"
+			android:authorities="com.brazedblue.waverly"
+			android:exported="false"
+			android:grantUriPermissions="true">
+			<meta-data
+				android:name="android.support.FILE_PROVIDER_PATHS"
+				android:resource="@xml/file_paths" />
+		</provider>
+		<provider
+			android:name="com.brazedblue.waverly.StatementsProvider"
+			android:authorities="com.brazedblue.waverly.StatementsProvider"
+			android:enabled="true"
+			android:exported="true">
+		</provider>
+		<activity
+			android:name="com.brazedblue.waverly.DebugLogActivity"
+			android:label="@string/title_activity_debug_log">
+		</activity>
+	</application>
+
+</manifest>

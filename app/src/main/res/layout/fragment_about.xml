@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.brazedblue.waverly.AboutFragment"
+                android:background="#ffffff">
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Show Log"
+		android:id="@+id/debugButton"
+		android:layout_gravity="center_horizontal|bottom"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/clickText"
+		android:layout_gravity="center_horizontal|bottom"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="false"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/webView"
+		android:layout_above="@+id/debugButton"
+		android:clickable="true"
+		android:focusable="true"
+		android:enabled="true"/>
+
+	<WebView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/webView"
+		android:layout_gravity="center_horizontal|top"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

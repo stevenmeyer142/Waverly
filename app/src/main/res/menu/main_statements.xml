@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.brazedblue.waverly.MainStatementsActivity" >
+
+    <item
+         android:id="@+id/editStatementListAction"
+          android:visible="true"
+          android:title="@string/edit_menu"
+          android:titleCondensed="@string/edit_menu"
+          android:icon="@drawable/ic_menu_edit"
+          app:showAsAction="ifRoom" >
+    </item>
+</menu>

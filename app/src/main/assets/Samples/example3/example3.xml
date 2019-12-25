@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statements>
+    <statement>
+        <noun>Select</noun>
+        <verb>the edit menu</verb>
+        <result>to create or change a Waverly.
+
+(It is at the top)</result>
+        <picture>open_door.png</picture>
+        <uuid>D29596C5-C3F8-43BF-97C2-B4F7C381D600</uuid>
+        <time>300</time>
+    </statement>
+</statements>
